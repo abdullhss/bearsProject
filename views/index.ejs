@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styleforhome.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="background-container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light animate__animated animate__fadeInLeftBig">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">تسجيل الدخول</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/register">صنع حساب</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/feedback">ارائكم</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center animate__animated animate__fadeIn ylaNl3b mt-5">يلا نلعب .. ؟</h1>
+                <div class="row-md-12 d-flex mt-5 contant ">
+                    <a class="col-md-5" href="/register"><button class="homeBTN col-12">معندكش حساب ؟</button></a>
+                    <a class="col-md-5" href="/login"><button class="homeBTN col-12">تسجيل الدخول</button></a>
+                </div>
+            </div>
+        </div>
+        <form action="/comment" method="POST">
+            <div id="comments-container" class="animated col-12 mt-5 w-100">
+                <div id="comments-header">قول رايك 🥰</div>
+                <div id="comments-form">
+                    <input type="text" id="name" placeholder="الاسم" name="name">
+                    <input id="comment" placeholder="رايك" name="comment" type="text"></input>
+                    <button type="submit">ارسال</button>
+                </div>
+            </div>    
+        </form>
+
+        <div class="row mt-5">
+            <div class="col-md-12 mt-5">
+                <h1 class="text-center animate__animated animate__fadeIn">تواصل معنا</h1>
+                <div class="row-md-12 d-flex mt-5 contant ">
+                    <div class="row-md-12 mt-5 contant">
+                        <div class="col-md-5 aboutUs animate__animated animate__fadeInDown">
+                            <h3 class="">حبيبه شريف  :</h3>
+                            <a href="https://www.facebook.com/habiba.shrief.98?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook mt-3 p-4" style="color: #000000; font-size: 5vh;"></i></a>
+                            <a href="mailto:habiba.2022513@stemmenof.moe.edu.eg"><i class="fa-solid fa-envelope p-4" style="color: #000000; font-size: 5vh;"></i></a>
+                            <a href="https://wa.me/01016677163"><i class="fa-brands fa-whatsapp p-4"  style="color: #000000; font-size: 5vh;" ></i></a>
+                        </div>
+
+                        <div class="col-md-5 aboutUs animate__animated animate__fadeInDown">
+                            <h3 class="">ألاء أيمن :</h3>
+                            
+                            <a href="https://www.facebook.com/lola.ayman.7399?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook mt-3 p-4" style="color: #000000; font-size: 5vh;"></i></a>
+                            <a href="mailto:alaa.2022504@stemmenof.moe.edu.eg"><i class="fa-solid fa-envelope p-4" style="color: #000000; font-size: 5vh;"></i></a>
+                            <a href="https://wa.me/01013626797"><i class="fa-brands fa-whatsapp p-4"  style="color: #000000; font-size: 5vh;" ></i></a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
